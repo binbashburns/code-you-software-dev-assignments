@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "branching-logic", "extras\b
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week-4-loops", "week-4-loops\week-4-loops.csproj", "{2B2A97D0-9310-4245-BC07-EA12027499BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week-3-arrays", "week-3-arrays\week-3-arrays.csproj", "{D147AAFB-2FA6-4129-BA21-4987B66AE715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,18 @@ Global
 		{2B2A97D0-9310-4245-BC07-EA12027499BF}.Release|x64.Build.0 = Release|Any CPU
 		{2B2A97D0-9310-4245-BC07-EA12027499BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{2B2A97D0-9310-4245-BC07-EA12027499BF}.Release|x86.Build.0 = Release|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Debug|x64.Build.0 = Debug|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Debug|x86.Build.0 = Debug|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Release|x64.ActiveCfg = Release|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Release|x64.Build.0 = Release|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Release|x86.ActiveCfg = Release|Any CPU
+		{D147AAFB-2FA6-4129-BA21-4987B66AE715}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

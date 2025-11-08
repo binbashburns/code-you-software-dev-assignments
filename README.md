@@ -57,15 +57,63 @@ A console application that demonstrates array usage and iteration through collec
 - Multi-line comments (`/* */`)
 - Single-line comments (`//`)
 
+## Week 4 Projects
+
+#### `week-4-loops/` [[link](https://github.com/binbashburns/code-you-software-dev-assignments/tree/main/week-4-loops)]
+A comprehensive console application combining arrays, loops, and conditional logic.
+
+**What it does:**
+- Initializes a string array with SpongeBob SquarePants characters
+- Uses a traditional `for` loop to iterate through the array (not `foreach`)
+- Evaluates each character and displays unique information using `if/else if` statements
+
+**Key concepts covered:**
+- Array initialization and indexing
+- `for` loop with manual index control
+- Array `.Length` property
+- Conditional statements (`if/else if/else`)
+- String comparison and interpolation
+- Combining multiple programming concepts
+
 ## Supporting Directories
 
 #### `extras/`
-Currently empty - reserved for additional course materials or supplementary exercises.
+Practice exercises and supplementary learning materials covering various C# concepts.
 
-### Build Output Directories
-Each project contains standard .NET build artifacts:
-- **`bin/`** - Compiled executable files and dependencies
-- **`obj/`** - Intermediate build files and project metadata
+**Projects included:**
+
+- **`bool/`** - Boolean expressions and comparison operators
+  - Equality (`==`), inequality (`!=`), greater/less than
+  - String comparison with `.Contains()`, `.Trim()`, `.ToLower()`
+  
+- **`business-rules/`** - Subscription expiration logic with conditional discounts
+  - Nested `if/else` statements
+  - Random number generation
+  - Tiered business logic implementation
+  
+- **`call-methods/`** - Introduction to calling built-in methods
+  - Using `Random.Next()` for random values
+  - Basic method invocation
+  
+- **`branching-logic/`** - Switch statement examples and challenges
+  - `switch/case` syntax
+  - Stock Keeping Unit (SKU) processing
+  - Pattern matching with switch expressions
+  
+- **`if-else-elseif/`** - Dice game demonstrating conditional logic
+  - Multiple conditional checks with `if/else if`
+  - Logical operators (`&&`, `||`)
+  - Detecting doubles and triples
+  
+- **`loops/`** - Various loop types and patterns
+  - `do/while` loops
+  - Hero vs. Monster challenge game
+  - User input validation with loops
+  
+- **`calculate-final-gpa/`** - GPA calculator
+  - Variable declaration and initialization
+  - Credit hour and grade point calculations
+  - Mathematical operations with integers and decimals
 
 ## Technical Details
 
