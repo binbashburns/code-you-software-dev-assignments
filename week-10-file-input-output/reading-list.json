@@ -1,0 +1,47 @@
+[
+  {
+    "color": "Black",
+    "material": "PLA",
+    "diameterMm": 1.75,
+    "weightGrams": 750,
+    "remainingPercentage": 80,
+    "brand": "Dremel",
+    "itemNumber": "PLA-BLA-01"
+  },
+  {
+    "color": "Brown",
+    "material": "PLA",
+    "diameterMm": 1.75,
+    "weightGrams": 750,
+    "remainingPercentage": 90,
+    "brand": "Dremel",
+    "itemNumber": "PLA-BRO-01"
+  },
+  {
+    "color": "Beige",
+    "material": "PLA",
+    "diameterMm": 1.75,
+    "weightGrams": 750,
+    "remainingPercentage": 90,
+    "brand": "Dremel",
+    "itemNumber": "PLA-BEI-01"
+  },
+  {
+    "color": "Olive Green",
+    "material": "PLA",
+    "diameterMm": 1.75,
+    "weightGrams": 750,
+    "remainingPercentage": 90,
+    "brand": "Dremel",
+    "itemNumber": "PLA-OLI-01"
+  },
+  {
+    "color": "Navy Blue",
+    "material": "PLA",
+    "diameterMm": 1.75,
+    "weightGrams": 750,
+    "remainingPercentage": 90,
+    "brand": "Dremel",
+    "itemNumber": "PLA-NAV-01"
+  }
+]
