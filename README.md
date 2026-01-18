@@ -1,172 +1,101 @@
 # Code You Software Development (with C#) Assignments
 
-This repository contains C# console application assignments for software development with CodeYou. 
+Minimal C# console apps for CodeYou. Requires the .NET 9 SDK.
 
-## Project Structure
+## Run
 
-### Solution File 
-- **`code-you-software-dev-assignments.sln`**: Visual Studio solution file that contains all projects in this repository
-
-## Week 1 Projects
-
-#### `week-1-console-writeline/` [[link](https://github.com/binbashburns/code-you-software-dev-assignments/tree/main/week-1-console-writeline)]
-A simple console application that demonstrates basic user input/output operations.
-
-**What it does:**
-- Prompts the user to enter their name
-- Reads the user's input from the console
-- Displays a personalized greeting message
-
-**Key concepts covered:**
-- `Console.WriteLine()` for output
-- `Console.ReadLine()` for input
-- String concatenation
-- Basic program flow
-
-#### `week-1-guided-project/` [[link](https://github.com/binbashburns/code-you-software-dev-assignments/tree/main/week-1-guided-project)]
-A student grade calculator that processes multiple students' assignment scores.
-
-**What it does:**
-- Stores grades for 4 students (Sophia, Nicolas, Zahirah, and Jeong)
-- Calculates the average score for each student
-- Displays results in a formatted table with letter grades
-
-**Key concepts covered:**
-- Variable declaration and initialization
-- Integer and decimal data types
-- Type casting (`(decimal)`)
-- Mathematical operations
-- Formatted console output with tabs (`\t`)
-- Grade calculation logic
-
-## Week 3 Projects
-
-#### `week-3-arrays/` [[link](https://github.com/binbashburns/code-you-software-dev-assignments/tree/main/week-3-arrays)]
-A console application that demonstrates array usage and iteration through collections.
-
-**What it does:**
-- Declares and initializes a string array with a list of the greatest sodas of all time
-- Iterates through the array using a `foreach` loop
-- Displays each element in the collection to the console
-
-**Key concepts covered:**
-- Array declaration and initialization
-- String arrays
-- `foreach` loop for iteration
-- Working with collections
-- Multi-line comments (`/* */`)
-- Single-line comments (`//`)
-
-## Week 4 Projects
-
-#### `week-4-loops/` [[link](https://github.com/binbashburns/code-you-software-dev-assignments/tree/main/week-4-loops)]
-A comprehensive console application combining arrays, loops, and conditional logic.
-
-**What it does:**
-- Initializes a string array with SpongeBob SquarePants characters
-- Uses a traditional `for` loop to iterate through the array (not `foreach`)
-- Evaluates each character and displays unique information using `if/else if` statements
-
-**Key concepts covered:**
-- Array initialization and indexing
-- `for` loop with manual index control
-- Array `.Length` property
-- Conditional statements (`if/else if/else`)
-- String comparison and interpolation
-- Combining multiple programming concepts
-
-## Supporting Directories
-
-#### `extras/`
-Practice exercises and supplementary learning materials covering various C# concepts.
-
-**Projects included:**
-
-- **`bool/`** - Boolean expressions and comparison operators
-  - Equality (`==`), inequality (`!=`), greater/less than
-  - String comparison with `.Contains()`, `.Trim()`, `.ToLower()`
-  
-- **`business-rules/`** - Subscription expiration logic with conditional discounts
-  - Nested `if/else` statements
-  - Random number generation
-  - Tiered business logic implementation
-  
-- **`call-methods/`** - Introduction to calling built-in methods
-  - Using `Random.Next()` for random values
-  - Basic method invocation
-  
-- **`branching-logic/`** - Switch statement examples and challenges
-  - `switch/case` syntax
-  - Stock Keeping Unit (SKU) processing
-  - Pattern matching with switch expressions
-  
-- **`if-else-elseif/`** - Dice game demonstrating conditional logic
-  - Multiple conditional checks with `if/else if`
-  - Logical operators (`&&`, `||`)
-  - Detecting doubles and triples
-  
-- **`loops/`** - Various loop types and patterns
-  - `do/while` loops
-  - Hero vs. Monster challenge game
-  - User input validation with loops
-  
-- **`calculate-final-gpa/`** - GPA calculator
-  - Variable declaration and initialization
-  - Credit hour and grade point calculations
-  - Mathematical operations with integers and decimals
-
-## Technical Details
-
-- **Framework:** .NET 9.0
-- **Language:** C# 
-- **Project Type:** Console Applications
-- **IDE Compatibility:** Visual Studio, VS Code, Rider
-
-## Getting Started
-
-### Prerequisites
-- [.NET 9.0 SDK](https://dotnet.microsoft.com/download) installed on your machine
-
-### Running the Projects
-
-#### Option 1: Using Command Line
-Navigate to the project directory and run:
+From the repo root:
 
 ```bash
-# For the console writeline project
-cd week-1-console-writeline
-dotnet build
-dotnet run
-
-# For the guided project
-cd week-1-guided-project
-dotnet build
-dotnet run
+dotnet run --project <path>
 ```
 
-#### Option 3: Using the Solution
-Build and run all projects from the solution root:
+Example:
 
 ```bash
-# Build all projects
-dotnet build
-
-# Run a specific project
 dotnet run --project week-1-console-writeline
-dotnet run --project week-1-guided-project
 ```
 
-## Learning Objectives
+## Projects
 
-These assignments help students understand:
+### Weeks
 
-1. **Basic C# Syntax**: Variable declaration, data types, operators
-2. **Console I/O**: Reading user input and displaying output
-3. **Data Processing**: Performing calculations and data manipulation
-4. **Program Structure**: Understanding how C# console applications are organized
-5. **Development Workflow**: Building and running .NET applications
+#### [week-1-console-writeline](week-1-console-writeline)
+Greets the user from console input. Run: `dotnet run --project week-1-console-writeline`
 
-##  Notes
+#### [week-1-guided-project](week-1-guided-project)
+Student grade calculator. Run: `dotnet run --project week-1-guided-project`
 
-- Projects follow standard .NET naming conventions
-- Each project is self-contained and can be run independently
+#### [week-3-arrays](week-3-arrays)
+Prints a list from a string array. Run: `dotnet run --project week-3-arrays`
+
+#### [week-4-loops](week-4-loops)
+Iterates characters with conditionals. Run: `dotnet run --project week-4-loops`
+
+#### [week-5-methods](week-5-methods)
+Leftover meal portion calculator. Run: `dotnet run --project week-5-methods`
+
+#### [week-7-debug](week-7-debug)
+Gift exchange with input validation. Run: `dotnet run --project week-7-debug`
+
+#### [week-8-oop](week-8-oop)
+Gift suggestion using a class. Run: `dotnet run --project week-8-oop`
+
+#### [week-10-file-input-output](week-10-file-input-output)
+Reads JSON and prints filament spools. Run: `dotnet run --project week-10-file-input-output`
+
+### Extras
+
+#### [extras/bool](extras/bool)
+Boolean comparison drills. Run: `dotnet run --project extras/bool`
+
+#### [extras/branching-logic](extras/branching-logic)
+Switch statement practice. Run: `dotnet run --project extras/branching-logic`
+
+#### [extras/business-rules](extras/business-rules)
+Subscription discount logic. Run: `dotnet run --project extras/business-rules`
+
+#### [extras/call-methods](extras/call-methods)
+Calling built-in methods. Run: `dotnet run --project extras/call-methods`
+
+#### [extras/calculate-final-gpa](extras/calculate-final-gpa)
+GPA calculator. Run: `dotnet run --project extras/calculate-final-gpa`
+
+#### [extras/code-blocks](extras/code-blocks)
+Code block and scope practice. Run: `dotnet run --project extras/code-blocks`
+
+#### [extras/conditional-looping](extras/conditional-looping)
+Conditional loop patterns. Run: `dotnet run --project extras/conditional-looping`
+
+#### [extras/cs-for](extras/cs-for)
+`for` loop drills. Run: `dotnet run --project extras/cs-for`
+
+#### [extras/gp-foreach-ifelse](extras/gp-foreach-ifelse)
+Guided `foreach` + `if/else`. Run: `dotnet run --project extras/gp-foreach-ifelse`
+
+#### [extras/gp-foreach-ifelse2](extras/gp-foreach-ifelse2)
+More guided collection branching. Run: `dotnet run --project extras/gp-foreach-ifelse2`
+
+#### [extras/if-else-elseif](extras/if-else-elseif)
+Dice game conditionals. Run: `dotnet run --project extras/if-else-elseif`
+
+#### [extras/implement-vscode-debugging-tools](extras/implement-vscode-debugging-tools)
+Debugging tools practice. Run: `dotnet run --project extras/implement-vscode-debugging-tools`
+
+#### [extras/loops](extras/loops)
+Loop patterns and challenges. Run: `dotnet run --project extras/loops`
+
+#### [extras/methods-that-return-values](extras/methods-that-return-values)
+Return value exercises. Run: `dotnet run --project extras/methods-that-return-values`
+
+#### [extras/methods-with-params](extras/methods-with-params)
+Parameter exercises. Run: `dotnet run --project extras/methods-with-params`
+
+#### [extras/simple-console-apps](extras/simple-console-apps)
+Small console apps. Run: `dotnet run --project extras/simple-console-apps`
+
+#### [extras/working-with-files-directories](extras/working-with-files-directories)
+File and directory practice. Run: `dotnet run --project extras/working-with-files-directories`
+
+#### [extras/write-your-own-method](extras/write-your-own-method)
+Write custom methods. Run: `dotnet run --project extras/write-your-own-method`
