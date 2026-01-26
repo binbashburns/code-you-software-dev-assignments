@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mslearn-dotnet-files", "ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "write-your-own-method", "extras\write-your-own-method\write-your-own-method.csproj", "{B3CD06E1-7B8B-46F3-8190-E3E5217496EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week-12-async-programming", "week-12-async-programming\week-12-async-programming.csproj", "{889915F6-B131-4A10-AE05-0B382787D781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -379,6 +381,18 @@ Global
 		{B3CD06E1-7B8B-46F3-8190-E3E5217496EE}.Release|x64.Build.0 = Release|Any CPU
 		{B3CD06E1-7B8B-46F3-8190-E3E5217496EE}.Release|x86.ActiveCfg = Release|Any CPU
 		{B3CD06E1-7B8B-46F3-8190-E3E5217496EE}.Release|x86.Build.0 = Release|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Debug|x64.Build.0 = Debug|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Debug|x86.Build.0 = Debug|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x64.ActiveCfg = Release|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x64.Build.0 = Release|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x86.ActiveCfg = Release|Any CPU
+		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

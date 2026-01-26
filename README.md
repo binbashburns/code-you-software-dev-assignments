@@ -44,6 +44,9 @@ Gift suggestion using a class. Run: `dotnet run --project week-8-oop`
 #### [week-10-file-input-output](week-10-file-input-output)
 Reads JSON and prints filament spools. Run: `dotnet run --project week-10-file-input-output`
 
+#### [week-12-async-programming](week-12-async-programming)
+Fetches random Pokemon from PokeAPI using async/await. Run: `dotnet run --project week-12-async-programming`
+
 ### Extras
 
 #### [extras/bool](extras/bool)
