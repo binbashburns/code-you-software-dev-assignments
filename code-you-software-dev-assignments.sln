@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "write-your-own-method", "ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week-12-async-programming", "week-12-async-programming\week-12-async-programming.csproj", "{889915F6-B131-4A10-AE05-0B382787D781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week-13-managing-application-data", "week-13-managing-application-data\week-13-managing-application-data.csproj", "{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,18 @@ Global
 		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x64.Build.0 = Release|Any CPU
 		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x86.ActiveCfg = Release|Any CPU
 		{889915F6-B131-4A10-AE05-0B382787D781}.Release|x86.Build.0 = Release|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Debug|x64.Build.0 = Debug|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Debug|x86.Build.0 = Debug|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Release|x64.ActiveCfg = Release|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Release|x64.Build.0 = Release|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Release|x86.ActiveCfg = Release|Any CPU
+		{897FE281-DF1F-4788-9FE7-BA7EA28F5B46}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
